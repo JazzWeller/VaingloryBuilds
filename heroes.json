@@ -3,341 +3,341 @@
     "$oid": "60667518281d161638dac27a"
   },
   "name": "Adagio",
-  "path": "@/images/adagio.png"
+  "path": "/img/adagio.131c5e48.png"
 },{
   "_id": {
     "$oid": "606677d6281d161638dac27b"
   },
   "name": "Alpha",
-  "path": "@/images/alpha.png"
+  "path": "/img/alpha.e99ccf9c.png"
 },{
   "_id": {
     "$oid": "60667991281d161638dac27c"
   },
   "name": "Amael",
-  "path": "@/images/amael.png"
+  "path": "/img/amael.d5b4b718.png"
 },{
   "_id": {
     "$oid": "60667991281d161638dac27d"
   },
   "name": "Anka",
-  "path": "@/images/anka.png"
+  "path": "/img/anka.6547df69.png"
 },{
   "_id": {
     "$oid": "60667991281d161638dac27e"
   },
   "name": "Ardan",
-  "path": "@/images/ardan.png"
+  "path": "/img/ardan.64c3cdce.png"
 },{
   "_id": {
     "$oid": "60667991281d161638dac27f"
   },
   "name": "Baptiste",
-  "path": "@/images/baptiste.png"
+  "path": "/img/baptiste.8055e14c.png"
 },{
   "_id": {
     "$oid": "60667991281d161638dac280"
   },
   "name": "Baron",
-  "path": "@/images/baron.png"
+  "path": "/img/baron.2a837718.png"
 },{
   "_id": {
     "$oid": "60667991281d161638dac281"
   },
   "name": "Blackfeather",
-  "path": "@/images/blackfeather.png"
+  "path": "/img/blackfeather.44e85a1f.png"
 },{
   "_id": {
     "$oid": "60667992281d161638dac282"
   },
   "name": "Caine",
-  "path": "@/images/caine.png"
+  "path": "/img/caine.6b588a9d.png"
 },{
   "_id": {
     "$oid": "60667992281d161638dac283"
   },
   "name": "Catherine",
-  "path": "@/images/catherine.png"
+  "path": "/img/catherine.950d4854.png"
 },{
   "_id": {
     "$oid": "60667992281d161638dac284"
   },
   "name": "Celeste",
-  "path": "@/images/celeste.png"
+  "path": "/img/celeste.6c2be208.png"
 },{
   "_id": {
     "$oid": "60667992281d161638dac285"
   },
   "name": "Churnwalker",
-  "path": "@/images/churnwalker.png"
+  "path": "/img/churnwalker.7186135e.png"
 },{
   "_id": {
     "$oid": "60667992281d161638dac286"
   },
   "name": "Flicker",
-  "path": "@/images/flicker.png"
+  "path": "/img/flicker.02878f43.png"
 },{
   "_id": {
     "$oid": "60667992281d161638dac287"
   },
   "name": "Fortress",
-  "path": "@/images/fortress.png"
+  "path": "/img/fortress.2a88861c.png"
 },{
   "_id": {
     "$oid": "60667993281d161638dac288"
   },
   "name": "Glaive",
-  "path": "@/images/glaive.png"
+  "path": "/img/glaive.f1be6734.png"
 },{
   "_id": {
     "$oid": "60667993281d161638dac289"
   },
   "name": "Grace",
-  "path": "@/images/grace.png"
+  "path": "/img/grace.816734d4.png"
 },{
   "_id": {
     "$oid": "60667993281d161638dac28a"
   },
   "name": "Grumpjaw",
-  "path": "@/images/grumpjaw.png"
+  "path": "/img/grumpjaw.e19416d6.png"
 },{
   "_id": {
     "$oid": "60667993281d161638dac28b"
   },
   "name": "Gwen",
-  "path": "@/images/gwen.png"
+  "path": "/img/gwen.b6b45d0f.png"
 },{
   "_id": {
     "$oid": "60667993281d161638dac28c"
   },
   "name": "Idris",
-  "path": "@/images/idris.png"
+  "path": "/img/idris.dcc57b45.png"
 },{
   "_id": {
     "$oid": "60667993281d161638dac28d"
   },
   "name": "Inara",
-  "path": "@/images/inara.png"
+  "path": "/img/inara.ed3353c5.png"
 },{
   "_id": {
     "$oid": "60667993281d161638dac28e"
   },
   "name": "Ishtar",
-  "path": "@/images/ishtar.png"
+  "path": "/img/ishtar.22d2ff92.png"
 },{
   "_id": {
     "$oid": "60667994281d161638dac28f"
   },
   "name": "Joule",
-  "path": "@/images/joule.png"
+  "path": "/img/joule.21226ce6.png"
 },{
   "_id": {
     "$oid": "60667994281d161638dac290"
   },
   "name": "Karas",
-  "path": "@/images/kara.png"
+  "path": "/img/karas.8d6cc36e.png"
 },{
   "_id": {
     "$oid": "60667994281d161638dac291"
   },
   "name": "Kensei",
-  "path": "@/images/kensei.png"
+  "path": "/img/kensei.b00bcbe5.png"
 },{
   "_id": {
     "$oid": "60667994281d161638dac292"
   },
   "name": "Kestrel",
-  "path": "@/images/kestrel.png"
+  "path": "/img/kestrel.66cbab07.png"
 },{
   "_id": {
     "$oid": "60667994281d161638dac293"
   },
   "name": "Kinetic",
-  "path": "@/images/kinetic.png"
+  "path": "/img/kinetic.93a3ada9.png"
 },{
   "_id": {
     "$oid": "60667994281d161638dac294"
   },
   "name": "Koshka",
-  "path": "@/images/koshka.png"
+  "path": "/img/koshka.c0768a4d.png"
 },{
   "_id": {
     "$oid": "60667995281d161638dac295"
   },
   "name": "Krul",
-  "path": "@/images/krul.png"
+  "path": "/img/krul.d3108415.png"
 },{
   "_id": {
     "$oid": "60667995281d161638dac296"
   },
   "name": "Lance",
-  "path": "@/images/lance.png"
+  "path": "/img/lance.68275abe.png"
 },{
   "_id": {
     "$oid": "60667995281d161638dac297"
   },
   "name": "Leo",
-  "path": "@/images/leo.png"
+  "path": "/img/leo.ec608fa4.png"
 },{
   "_id": {
     "$oid": "60667995281d161638dac298"
   },
   "name": "Lorelai",
-  "path": "@/images/lorelai.png"
+  "path": "/img/lorelai.8abe9ceb.png"
 },{
   "_id": {
     "$oid": "60667995281d161638dac299"
   },
   "name": "Lyra",
-  "path": "@/images/lyra.png"
+  "path": "/img/lyra.40931136.png"
 },{
   "_id": {
     "$oid": "60667995281d161638dac29a"
   },
   "name": "Magnus",
-  "path": "@/images/magnus.png"
+  "path": "/img/magnus.f0310dfe.png"
 },{
   "_id": {
     "$oid": "60667995281d161638dac29b"
   },
   "name": "Malene",
-  "path": "@/images/malene.png"
+  "path": "/img/malene.94e0f882.png"
 },{
   "_id": {
     "$oid": "60667996281d161638dac29c"
   },
   "name": "Miho",
-  "path": "@/images/miho.png"
+  "path": "/img/miho.383d8e66.png"
 },{
   "_id": {
     "$oid": "60667996281d161638dac29d"
   },
   "name": "Ozo",
-  "path": "@/images/ozo.png"
+  "path": "/img/ozo.40ae72fb.png"
 },{
   "_id": {
     "$oid": "60667996281d161638dac29e"
   },
   "name": "Petal",
-  "path": "@/images/petal.png"
+  "path": "/img/petal.6094cdb3.png"
 },{
   "_id": {
     "$oid": "60667996281d161638dac29f"
   },
   "name": "Phinn",
-  "path": "@/images/phinn.png"
+  "path": "/img/phinn.48ac5001.png"
 },{
   "_id": {
     "$oid": "60667996281d161638dac2a0"
   },
   "name": "Reim",
-  "path": "@/images/reim.png"
+  "path": "/img/reim.0f0d7aac.png"
 },{
   "_id": {
     "$oid": "60667996281d161638dac2a1"
   },
   "name": "Reza",
-  "path": "@/images/reza.png"
+  "path": "/img/reza.82e3ae55.png"
 },{
   "_id": {
     "$oid": "60667997281d161638dac2a2"
   },
   "name": "Ringo",
-  "path": "@/images/ringo.png"
+  "path": "/img/ringo.a5741f28.png"
 },{
   "_id": {
     "$oid": "60667997281d161638dac2a3"
   },
   "name": "Rona",
-  "path": "@/images/rona.png"
+  "path": "/img/rona.931d1fbb.png"
 },{
   "_id": {
     "$oid": "60667997281d161638dac2a4"
   },
   "name": "Samuel",
-  "path": "@/images/samuel.png"
+  "path": "/img/samuel.c0392c9c.png"
 },{
   "_id": {
     "$oid": "60667997281d161638dac2a5"
   },
   "name": "San-feng",
-  "path": "@/images/san-feng.png"
+  "path": "/img/san-feng.264a96dc.png"
 },{
   "_id": {
     "$oid": "60667997281d161638dac2a6"
   },
   "name": "Saw",
-  "path": "@/images/saw.png"
+  "path": "/img/saw.f541576f.png"
 },{
   "_id": {
     "$oid": "60667997281d161638dac2a7"
   },
   "name": "Shin",
-  "path": "@/images/shin.png"
+  "path": "/img/shin.575172f2.png"
 },{
   "_id": {
     "$oid": "60667997281d161638dac2a8"
   },
   "name": "Silvernail",
-  "path": "@/images/silvernail.png"
+  "path": "/img/silvernail.846d920c.png"
 },{
   "_id": {
     "$oid": "60667998281d161638dac2a9"
   },
   "name": "Skaarf",
-  "path": "@/images/skaarf.png"
+  "path": "/img/skaarf.39956cef.png"
 },{
   "_id": {
     "$oid": "60667998281d161638dac2aa"
   },
   "name": "Skye",
-  "path": "@/images/skye.png"
+  "path": "/img/skye.4f21ef60.png"
 },{
   "_id": {
     "$oid": "60667998281d161638dac2ab"
   },
   "name": "Taka",
-  "path": "@/images/taka.png"
+  "path": "/img/taka.dc165f00.png"
 },{
   "_id": {
     "$oid": "60667998281d161638dac2ac"
   },
   "name": "Tony",
-  "path": "@/images/tony.png"
+  "path": "/img/tony.6d23aaf7.png"
 },{
   "_id": {
     "$oid": "60667998281d161638dac2ad"
   },
   "name": "Varya",
-  "path": "@/images/varya.png"
+  "path": "/img/varya.d686640e.png"
 },{
   "_id": {
     "$oid": "60667998281d161638dac2ae"
   },
   "name": "Viola",
-  "path": "@/images/viola.png"
+  "path": "/img/viola.feee3816.png"
 },{
   "_id": {
     "$oid": "60667998281d161638dac2af"
   },
   "name": "Vox",
-  "path": "@/images/vox.png"
+  "path": "/img/vox.d16516c6.png"
 },{
   "_id": {
     "$oid": "60667999281d161638dac2b0"
   },
   "name": "Warhawk",
-  "path": "@/images/warhawk.png"
+  "path": "/img/warhawk.75b84bcc.png"
 },{
   "_id": {
     "$oid": "60667999281d161638dac2b1"
   },
   "name": "Yates",
-  "path": "@/images/yates.png"
+  "path": "/img/yates.6018f302.png"
 },{
   "_id": {
     "$oid": "60667999281d161638dac2b2"
   },
   "name": "Ylva",
-  "path": "@/images/ylva.png"
+  "path": "/img/ylva.ca0bd25e.png"
 }]

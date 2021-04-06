@@ -3,7 +3,7 @@
     "$oid": "6067ab27cff3623098264f95"
   },
   "name": "Aegis",
-  "path": "@/images/items/aegis.png",
+  "path": "/img/aegis.243f3a73.png",
   "cost": 2400,
   "firststat": "Max Health",
   "firststatvalue": 200,
@@ -22,7 +22,7 @@
     "$oid": "6067ab27cff3623098264f96"
   },
   "name": "Aftershock",
-  "path": "@/images/items/aftershock.png",
+  "path": "/img/aftershock.ce0092e0.png",
   "cost": 2600,
   "firststat": "Crystal Power",
   "firststatvalue": 30,
@@ -41,7 +41,7 @@
     "$oid": "6067ab27cff3623098264f97"
   },
   "name": "Alternating Current",
-  "path": "@/images/items/alternating-current.png",
+  "path": "/img/alternating-current.5673ac20.png",
   "cost": 2800,
   "firststat": "Crystal Power",
   "firststatvalue": 45,
@@ -60,7 +60,7 @@
     "$oid": "6067ab27cff3623098264f98"
   },
   "name": "Atlas Pauldron",
-  "path": "@/images/items/atlas-pauldron.png",
+  "path": "/img/atlas-pauldron.32ea0125.png",
   "cost": 1700,
   "firststat": "Armor",
   "firststatvalue": 65,
@@ -79,7 +79,7 @@
     "$oid": "6067ab28cff3623098264f99"
   },
   "name": "Bonesaw",
-  "path": "@/images/items/bonesaw.png",
+  "path": "/img/bonesaw.f4db8f56.png",
   "cost": 2900,
   "firststat": "Weapon Power",
   "firststatvalue": 30,
@@ -98,7 +98,7 @@
     "$oid": "6067ab28cff3623098264f9a"
   },
   "name": "Breaking Point",
-  "path": "@/images/items/breaking-point.png",
+  "path": "/img/breaking-point.a177afd4.png",
   "cost": 2700,
   "firststat": "Attack Speed (%)",
   "firststatvalue": 20,
@@ -117,7 +117,7 @@
     "$oid": "6067ab28cff3623098264f9b"
   },
   "name": "Broken Myth",
-  "path": "@/images/items/broken-myth.png",
+  "path": "/img/broken-myth.c615f2f0.png",
   "cost": 2900,
   "firststat": "Crystal Power",
   "firststatvalue": 50,
@@ -136,9 +136,9 @@
     "$oid": "6067ab28cff3623098264f9c"
   },
   "name": "Capacitor Plate",
-  "path": "@/images/items/capacitor-plate.png",
+  "path": "/img/capacitor-plate.754a4eca.png",
   "cost": 2100,
-  "firststat": "Health",
+  "firststat": "Max Health",
   "firststatvalue": 400,
   "secondstat": "Armor",
   "secondstatvalue": 30,
@@ -155,7 +155,7 @@
     "$oid": "6067ab28cff3623098264f9d"
   },
   "name": "Celestial Shroud",
-  "path": "@/images/items/celestial-shroud.png",
+  "path": "/img/celestial-shroud.167a2d3b.png",
   "cost": 2200,
   "firststat": "Shield",
   "firststatvalue": 95,
@@ -174,7 +174,7 @@
     "$oid": "6067ab28cff3623098264f9e"
   },
   "name": "Clockwork",
-  "path": "@/images/items/clockwork.png",
+  "path": "/img/clockwork.8d534386.png",
   "cost": 2500,
   "firststat": "Crystal Power",
   "firststatvalue": 30,
@@ -193,7 +193,7 @@
     "$oid": "6067ab29cff3623098264f9f"
   },
   "name": "Contraption",
-  "path": "@/images/items/contraption.png",
+  "path": "/img/contraption.5dee3b71.png",
   "cost": 2100,
   "firststat": "Max Health",
   "firststatvalue": 250,
@@ -212,7 +212,7 @@
     "$oid": "6067ab29cff3623098264fa0"
   },
   "name": "Crucible",
-  "path": "@/images/items/crucible.png",
+  "path": "/img/crucible.86d76b24.png",
   "cost": 2000,
   "firststat": "Max Health",
   "firststatvalue": 550,
@@ -231,7 +231,7 @@
     "$oid": "6067ab29cff3623098264fa1"
   },
   "name": "Dragons Eye",
-  "path": "@/images/items/dragons-eye.png",
+  "path": "/img/dragons-eye.f846f5b8.png",
   "cost": 3000,
   "firststat": "Crystal Power",
   "firststatvalue": 75,
@@ -250,7 +250,7 @@
     "$oid": "6067ab29cff3623098264fa2"
   },
   "name": "Eye of Harvest",
-  "path": "@/images/items/eye-of-harvest.png",
+  "path": "/img/eve-of-harvest.b4081fdf.png",
   "cost": 2600,
   "firststat": "Crystal Power",
   "firststatvalue": 60,
@@ -269,7 +269,7 @@
     "$oid": "6067ab29cff3623098264fa3"
   },
   "name": "Fountain of Renewal",
-  "path": "@/images/items/fountain-of-renewal.png",
+  "path": "/img/fountain-of-renewal.c5e38d63.png",
   "cost": 2100,
   "firststat": "Max Health",
   "firststatvalue": 400,
@@ -288,7 +288,7 @@
     "$oid": "6067ab29cff3623098264fa4"
   },
   "name": "Frostburn",
-  "path": "@/images/items/frostburn.png",
+  "path": "/img/frostburn.0ead9d8f.png",
   "cost": 2700,
   "firststat": "Crystal Power",
   "firststatvalue": 90,
@@ -307,7 +307,7 @@
     "$oid": "6067ab2acff3623098264fa5"
   },
   "name": "Halcyon Chargers",
-  "path": "@/images/items/halcyon-chargers.png",
+  "path": "/img/halcyon-chargers.31a4b7a7.png",
   "cost": 1400,
   "firststat": "Max Health",
   "firststatvalue": 150,
@@ -326,7 +326,7 @@
     "$oid": "6067ab2acff3623098264fa6"
   },
   "name": "Journey Boots",
-  "path": "@/images/items/journey-boots.png",
+  "path": "/img/journey-boots.b96c4b0b.png",
   "cost": 1500,
   "firststat": "Max Health",
   "firststatvalue": 150,
@@ -345,7 +345,7 @@
     "$oid": "6067ab2acff3623098264fa7"
   },
   "name": "Metal Jacket",
-  "path": "@/images/items/metal-jacket.png",
+  "path": "/img/metal-jacket.8fd0a41a.png",
   "cost": 2200,
   "firststat": "Armor",
   "firststatvalue": 95,
@@ -364,7 +364,7 @@
     "$oid": "6067ab2acff3623098264fa8"
   },
   "name": "Poisoned Shiv",
-  "path": "@/images/items/poisoned-shiv.png",
+  "path": "/img/poisoned-shiv.d25cc689.png",
   "cost": 2750,
   "firststat": "Weapon Power",
   "firststatvalue": 35,
@@ -383,7 +383,7 @@
     "$oid": "6067ab2acff3623098264fa9"
   },
   "name": "Pulseweave",
-  "path": "@/images/items/pulseweave.png",
+  "path": "/img/pulseweave.30ea3773.png",
   "cost": 2250,
   "firststat": "Max Health",
   "firststatvalue": 600,
@@ -402,7 +402,7 @@
     "$oid": "6067ab2bcff3623098264faa"
   },
   "name": "Rooks Decree",
-  "path": "@/images/items/rooks-decree.png",
+  "path": "/img/rooks-decree.1654560e.png",
   "cost": 2100,
   "firststat": "Max Health",
   "firststatvalue": 500,
@@ -421,7 +421,7 @@
     "$oid": "6067ab2bcff3623098264fab"
   },
   "name": "Serpent Mask",
-  "path": "@/images/items/serpent-mask.png",
+  "path": "/img/serpent-mask.cfb00607.png",
   "cost": 2800,
   "firststat": "Weapon Power",
   "firststatvalue": 70,
@@ -440,7 +440,7 @@
     "$oid": "6067ab2bcff3623098264fac"
   },
   "name": "Shatterglass",
-  "path": "@/images/items/shatterglass.png",
+  "path": "/img/shatterglass.2c8611f1.png",
   "cost": 3000,
   "firststat": "Crystal Power",
   "firststatvalue": 130,
@@ -459,7 +459,7 @@
     "$oid": "6067ab2bcff3623098264fad"
   },
   "name": "Shiversteel",
-  "path": "@/images/items/shiversteel.png",
+  "path": "/img/shiversteel.6ce237ec.png",
   "cost": 2400,
   "firststat": "Max Health",
   "firststatvalue": 600,
@@ -478,7 +478,7 @@
     "$oid": "6067ab2bcff3623098264fae"
   },
   "name": "Slumbering Husk",
-  "path": "@/images/items/slumbering-husk.png",
+  "path": "/img/slumbering-husk.ad0511c1.png",
   "cost": 2300,
   "firststat": "Armor",
   "firststatvalue": 55,
@@ -497,7 +497,7 @@
     "$oid": "6067ab2bcff3623098264faf"
   },
   "name": "Sorrowblade",
-  "path": "@/images/items/sorrowblade.png",
+  "path": "/img/sorrowblade.84867daf.png",
   "cost": 3100,
   "firststat": "Weapon Power",
   "firststatvalue": 120,
@@ -516,7 +516,7 @@
     "$oid": "6067ab2ccff3623098264fb0"
   },
   "name": "Spellfire",
-  "path": "@/images/items/spellfire.png",
+  "path": "/img/spellfire.17e3e422.png",
   "cost": 3000,
   "firststat": "Crystal Power",
   "firststatvalue": 80,
@@ -535,7 +535,7 @@
     "$oid": "6067ab2ccff3623098264fb1"
   },
   "name": "Spellsword",
-  "path": "@/images/items/spellsword.png",
+  "path": "/img/spellsword.d82c5d50.png",
   "cost": 2800,
   "firststat": "Weapon Power",
   "firststatvalue": 85,
@@ -554,7 +554,7 @@
     "$oid": "6067ab2ccff3623098264fb2"
   },
   "name": "Stormcrown",
-  "path": "@/images/items/stormcrown.png",
+  "path": "/img/stormcrown.755fcb9a.png",
   "cost": 2400,
   "firststat": "Max Health",
   "firststatvalue": 300,
@@ -573,7 +573,7 @@
     "$oid": "6067ab2ccff3623098264fb3"
   },
   "name": "Superscout 2000",
-  "path": "@/images/items/superscout-2000.png",
+  "path": "/img/superscout-2000.f6352b67.png",
   "cost": 2000,
   "firststat": "Max Health",
   "firststatvalue": 450,
@@ -592,7 +592,7 @@
     "$oid": "6067ab2ccff3623098264fb4"
   },
   "name": "Teleport Boots",
-  "path": "@/images/items/teleport-boots.png",
+  "path": "/img/teleport-boots.72a049fd.png",
   "cost": 1600,
   "firststat": "Max Health",
   "firststatvalue": 150,
@@ -611,7 +611,7 @@
     "$oid": "6067ab2ccff3623098264fb5"
   },
   "name": "Tension Bow",
-  "path": "@/images/items/tension-bow.png",
+  "path": "/img/tension-bow.eec3fe8c.png",
   "cost": 2900,
   "firststat": "Weapon Power",
   "firststatvalue": 40,
@@ -630,7 +630,7 @@
     "$oid": "6067ab2dcff3623098264fb6"
   },
   "name": "Tornado Trigger",
-  "path": "@/images/items/tornado-trigger.png",
+  "path": "/img/tornado-trigger.52ac9630.png",
   "cost": 2800,
   "firststat": "Attack Speed (%)",
   "firststatvalue": 40,
@@ -649,7 +649,7 @@
     "$oid": "6067ab2dcff3623098264fb7"
   },
   "name": "Tyrants Monocle",
-  "path": "@/images/items/tyrants-monocle.png",
+  "path": "/img/tyrants-monocle.00e4339d.png",
   "cost": 2900,
   "firststat": "Weapon Power",
   "firststatvalue": 50,
@@ -668,7 +668,7 @@
     "$oid": "6067ab2dcff3623098264fb8"
   },
   "name": "War Treads",
-  "path": "@/images/items/war-treads.png",
+  "path": "/img/war-treads.c198ceaa.png",
   "cost": 1800,
   "firststat": "Max Health",
   "firststatvalue": 400,
