@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "606b601983ab0e1cc426eb0b"
+  },
+  "items": [
+    {
+      "$oid": "6067ab27cff3623098264f96"
+    },
+    {
+      "$oid": "6067ab29cff3623098264fa4"
+    },
+    {
+      "$oid": "6067ab27cff3623098264f97"
+    },
+    {
+      "$oid": "6067ab2bcff3623098264fac"
+    },
+    {
+      "$oid": "6067ab2bcff3623098264fae"
+    },
+    {
+      "$oid": "6067ab29cff3623098264fa2"
+    }
+  ],
+  "name": "Glass Cannon",
+  "heroe": {
+    "$oid": "60667992281d161638dac284"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "606b649883ab0e1cc426eb0c"
+  },
+  "items": [
+    {
+      "$oid": "6067ab2ccff3623098264fb5"
+    },
+    {
+      "$oid": "6067ab2dcff3623098264fb6"
+    },
+    {
+      "$oid": "6067ab2dcff3623098264fb6"
+    },
+    {
+      "$oid": "6067ab2dcff3623098264fb7"
+    },
+    {
+      "$oid": "6067ab2bcff3623098264fab"
+    },
+    {
+      "$oid": "6067ab2bcff3623098264fae"
+    }
+  ],
+  "name": "Shredder",
+  "heroe": {
+    "$oid": "60667997281d161638dac2a2"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "606b724e83ab0e1cc426eb0d"
+  },
+  "items": [
+    {
+      "$oid": "6067ab2acff3623098264fa7"
+    },
+    {
+      "$oid": "6067ab28cff3623098264f9d"
+    },
+    {
+      "$oid": "6067ab2acff3623098264fa9"
+    },
+    {
+      "$oid": "6067ab2bcff3623098264faa"
+    },
+    {
+      "$oid": "6067ab2dcff3623098264fb8"
+    },
+    {
+      "$oid": "6067ab2ccff3623098264fb2"
+    }
+  ],
+  "name": "Indestructible",
+  "heroe": {
+    "$oid": "60667996281d161638dac29f"
+  },
+  "__v": 1
+}]
