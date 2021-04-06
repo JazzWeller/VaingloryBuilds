@@ -63,7 +63,7 @@ const Item = mongoose.model('Item',itemSchema);
 // Model for builds
 const Build = mongoose.model('Build',buildSchema);
 
-app.listen(3000, () => console.log('Server listening on port 3000!'));
+app.listen(3001, () => console.log('Server listening on port 3001!'));
 
 //Get heroes/items (other operations not needed for users)
 
