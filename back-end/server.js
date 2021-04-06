@@ -48,30 +48,10 @@ const buildSchema = new mongoose.Schema({
 	type: mongoose.Schema.Types.ObjectId,
         ref: 'Heroe'
     },
-    itemone: {
+    items: [{
 	type: mongoose.Schema.Types.ObjectId,
-	ref: 'ItemOne'
-    },
-    itemtwo: {
-	type: mongoose.Schema.Types.ObjectId,
-	ref: 'ItemTwo'
-    },
-    itemthree: {
-	type: mongoose.Schema.Types.ObjectId,
-	ref: 'ItemThree'
-    },
-    itemfour: {
-	type: mongoose.Schema.Types.ObjectId,
-	ref: 'ItemFour'
-    },
-    itemfive: {
-	type: mongoose.Schema.Types.ObjectId,
-	ref: 'ItemFive'
-    },
-    itemsix: {
-	type: mongoose.Schema.Types.ObjectId,
-	ref: 'ItemSix'
-    },
+	ref: 'Item'
+    }]
 })
 
 // Create a model for heroes
@@ -143,52 +123,27 @@ app.post('/api/builds', async (req, res) => {
             res.sendStatus(404);
             return;
         }
-        let itemOnez = await Item.findOne({_id: req.body.itemOneID});
-        if (!itemOnez) {
-	    console.log("1");
-            res.sendStatus(404);
-            return;
-        }
-        let itemTwoz = await Item.findOne({_id: req.body.itemTwoID});
-        if (!itemTwoz) {
-	    console.log("2");
-            res.sendStatus(404);
-            return;
-        }
-        let itemThreez = await Item.findOne({_id: req.body.itemThreeID});
-        if (!itemThreez) {
-	    console.log("3");
-            res.sendStatus(404);
-            return;
-        }
-        let itemFourz = await Item.findOne({_id: req.body.itemFourID});
-        if (!itemFourz) {
-	    console.log("4");
-            res.sendStatus(404);
-            return;
-        }
-        let itemFivez = await Item.findOne({_id: req.body.itemFiveID});
-        if (!itemFivez) {
-	    console.log("5");
-            res.sendStatus(404);
-            return;
-        }
-        let itemSixz = await Item.findOne({_id: req.body.itemSixID});
-        if (!itemSixz) {
-	    console.log("6");
-            res.sendStatus(404);
-            return;
-        }
+
+	let itemOne = await Item.findOne({_id: req.body.itemOneID});
+	let itemTwo = await Item.findOne({_id: req.body.itemTwoID});
+	let itemThree = await Item.findOne({_id: req.body.itemThreeID});
+	let itemFour = await Item.findOne({_id: req.body.itemFourID});
+	let itemFive = await Item.findOne({_id: req.body.itemFiveID});
+	let itemSix = await Item.findOne({_id: req.body.itemSixID});
+
         let build = new Build({
             name: req.body.name,
             heroe: hero,
-            itemOne: itemOnez,
-            itemTwo: itemTwoz,
-            itemThree: itemThreez,
-            itemFour: itemFourz,
-            itemFive: itemFivez,
-            itemSix: itemSixz,
+            items: [
+            	itemOne,
+            	itemTwo,
+            	itemThree,
+            	itemFour,
+            	itemFive,
+            	itemSix
+            ]
         });
+        console.log(build);
         await build.save();
         res.send(build);
     } catch (error) {
@@ -209,15 +164,23 @@ app.get('/api/builds', async (req, res) => {
 
 app.put('/api/builds/:buildID', async (req, res) => {
     try {
-        let item = await Item.findOne({_id:req.params.itemID, project: req.params.projectID});
-        if (!item) {
+        let build = await Build.findOne({_id: req.params.buildID});
+        if (!build) {
             res.send(404);
             return;
         }
-        item.text = req.body.text;
-        item.completed = req.body.completed;
-        await item.save();
-        res.send(item);
+        build.name = req.body.name;
+
+        let itemOne = await Item.findOne({_id: req.body.itemOneID});
+	let itemTwo = await Item.findOne({_id: req.body.itemTwoID});
+	let itemThree = await Item.findOne({_id: req.body.itemThreeID});
+	let itemFour = await Item.findOne({_id: req.body.itemFourID});
+	let itemFive = await Item.findOne({_id: req.body.itemFiveID});
+	let itemSix = await Item.findOne({_id: req.body.itemSixID});
+        build.items = [itemOne,itemTwo,itemThree,itemFour,itemFive,itemSix];
+
+        await build.save(); //Hero doesn't get updated, since hero can't be changed.
+        res.send(build);
     } catch (error) {
         console.log(error);
         res.sendStatus(500);
@@ -226,12 +189,12 @@ app.put('/api/builds/:buildID', async (req, res) => {
 
 app.delete('/api/builds/:buildID', async (req, res) => {
     try {
-        let item = await Item.findOne({_id:req.params.itemID, project: req.params.projectID});
-        if (!item) {
+        let build = await Build.findOne({_id: req.params.buildID});
+        if (!build) {
             res.send(404);
             return;
         }
-        await item.delete();
+        await build.delete();
         res.sendStatus(200);
     } catch (error) {
         console.log(error);
