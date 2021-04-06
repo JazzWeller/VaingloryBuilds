@@ -1,0 +1,685 @@
+[{
+  "_id": {
+    "$oid": "6067ab27cff3623098264f95"
+  },
+  "name": "Aegis",
+  "path": "@/images/items/aegis.png",
+  "cost": 2400,
+  "firststat": "Max Health",
+  "firststatvalue": 200,
+  "secondstat": "Armor",
+  "secondstatvalue": 45,
+  "thirdstat": "Shield",
+  "thirdstatvalue": 45,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Active: Reflex Block (45s cooldown)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab27cff3623098264f96"
+  },
+  "name": "Aftershock",
+  "path": "@/images/items/aftershock.png",
+  "cost": 2600,
+  "firststat": "Crystal Power",
+  "firststatvalue": 30,
+  "secondstat": "Energy Recharge",
+  "secondstatvalue": 1,
+  "thirdstat": "Cooldown Reduction (%)",
+  "thirdstatvalue": 15,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: After using an ability, your next basic attack deals crystal damage equal to 10% of targets max health (max 300 against structures and epic monsters) with 25% lifesteal. 1s cooldown.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab27cff3623098264f97"
+  },
+  "name": "Alternating Current",
+  "path": "@/images/items/alternating-current.png",
+  "cost": 2800,
+  "firststat": "Crystal Power",
+  "firststatvalue": 45,
+  "secondstat": "Attack Speed (%)",
+  "secondstatvalue": 45,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Every other basic attack deals 50% of your crystal power as bonus damage.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab27cff3623098264f98"
+  },
+  "name": "Atlas Pauldron",
+  "path": "@/images/items/atlas-pauldron.png",
+  "cost": 1700,
+  "firststat": "Armor",
+  "firststatvalue": 65,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Active: Maim nearby enemies, lowering their attack speed by 50% of their total for 4s in a 5-meter range. Additionaly reduces weapon power damage by 30%. (45s cooldown)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab28cff3623098264f99"
+  },
+  "name": "Bonesaw",
+  "path": "@/images/items/bonesaw.png",
+  "cost": 2900,
+  "firststat": "Weapon Power",
+  "firststatvalue": 30,
+  "secondstat": "Attack Speed (%)",
+  "secondstatvalue": 30,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Your basic attacks shred 10% of the targets armor for 3s. Max 5 stacks. Armorbreaker: +20% armor pierce (does not stack with other Armorbreakers)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab28cff3623098264f9a"
+  },
+  "name": "Breaking Point",
+  "path": "@/images/items/breaking-point.png",
+  "cost": 2700,
+  "firststat": "Attack Speed (%)",
+  "firststatvalue": 20,
+  "secondstat": "Weapon Power",
+  "secondstatvalue": 50,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Gain 5 Weapon Power for every 100 weapon damage done to enemy heroes; +5/10 (melee/ranged) needed for each stack thereafter. 35 stacks max. Decays 5 stacks per second after youve stopped attacking for 2.5s.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab28cff3623098264f9b"
+  },
+  "name": "Broken Myth",
+  "path": "@/images/items/broken-myth.png",
+  "cost": 2900,
+  "firststat": "Crystal Power",
+  "firststatvalue": 50,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Shieldbreaker: +45% shield pierce (does not stack with other Shieldbreakers)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab28cff3623098264f9c"
+  },
+  "name": "Capacitor Plate",
+  "path": "@/images/items/capacitor-plate.png",
+  "cost": 2100,
+  "firststat": "Health",
+  "firststatvalue": 400,
+  "secondstat": "Armor",
+  "secondstatvalue": 30,
+  "thirdstat": "Shield",
+  "thirdstatvalue": 30,
+  "fourthstat": "Cooldown Reduction (%)",
+  "fourthstatvalue": 15,
+  "fifthstat": "Energy Regen",
+  "fifthstatvalue": 2.5,
+  "desc": "Passive: Your heals and barriers are 15% stronger. Your heals and barriers also grant other allied heroes bonus movement speed for 2s. (10s cooldown per hero)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab28cff3623098264f9d"
+  },
+  "name": "Celestial Shroud",
+  "path": "@/images/items/celestial-shroud.png",
+  "cost": 2200,
+  "firststat": "Shield",
+  "firststatvalue": 95,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Grants immunity to abilities and damaging debuffs. Disabled for 35s shortly after negating ability damage.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab28cff3623098264f9e"
+  },
+  "name": "Clockwork",
+  "path": "@/images/items/clockwork.png",
+  "cost": 2500,
+  "firststat": "Crystal Power",
+  "firststatvalue": 30,
+  "secondstat": "Cooldown Reduction (%)",
+  "secondstatvalue": 35,
+  "thirdstat": "Max Energy",
+  "thirdstatvalue": 400,
+  "fourthstat": "Energy Recharge",
+  "fourthstatvalue": 5,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Upon damaging an enemy hero with an ability, refresh all ability cooldowns by 10% (maximum 3s). This can only occur once every 3s.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab29cff3623098264f9f"
+  },
+  "name": "Contraption",
+  "path": "@/images/items/contraption.png",
+  "cost": 2100,
+  "firststat": "Max Health",
+  "firststatvalue": 250,
+  "secondstat": "Cooldown Reduction (%)",
+  "secondstatvalue": 40,
+  "thirdstat": "Energy Recharge",
+  "thirdstatvalue": 2,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Active: Target yourself to place a Scout Trap. Target the ground farther away to fire a Flare. 5s cooldown. 3 charges max. 20s per charge.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab29cff3623098264fa0"
+  },
+  "name": "Crucible",
+  "path": "@/images/items/crucible.png",
+  "cost": 2000,
+  "firststat": "Max Health",
+  "firststatvalue": 550,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Active: Trigger Reflex Block for you and nearby teammates. (75s cooldown)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab29cff3623098264fa1"
+  },
+  "name": "Dragons Eye",
+  "path": "@/images/items/dragons-eye.png",
+  "cost": 3000,
+  "firststat": "Crystal Power",
+  "firststatvalue": 75,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Gain 10 Crystal Power each second you damage enemy heroes. After 5s, lose 3 stack per second. 15 stacks max.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab29cff3623098264fa2"
+  },
+  "name": "Eye of Harvest",
+  "path": "@/images/items/eye-of-harvest.png",
+  "cost": 2600,
+  "firststat": "Crystal Power",
+  "firststatvalue": 60,
+  "secondstat": "Crystal Lifesteal (%)",
+  "secondstatvalue": 10,
+  "thirdstat": "Max Energy",
+  "thirdstatvalue": 300,
+  "fourthstat": "Energy Recharge",
+  "fourthstatvalue": 4,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Your next 400-800 (level 1-12) points of crystal damage to enemy heroes have +15% lifesteal, recharges over 40s.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab29cff3623098264fa3"
+  },
+  "name": "Fountain of Renewal",
+  "path": "@/images/items/fountain-of-renewal.png",
+  "cost": 2100,
+  "firststat": "Max Health",
+  "firststatvalue": 400,
+  "secondstat": "Shield",
+  "secondstatvalue": 40,
+  "thirdstat": "Armor",
+  "thirdstatvalue": 40,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Active: Heals you and nearby allies for 2 health for each % missing health per second for 3s. (75s cooldown). Passive: Regenerate 2.5% of your missing health per second whenever you are out of combat with enemy heroes for 5s.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab29cff3623098264fa4"
+  },
+  "name": "Frostburn",
+  "path": "@/images/items/frostburn.png",
+  "cost": 2700,
+  "firststat": "Crystal Power",
+  "firststatvalue": 90,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Crystal damage abilities slow enemy heroes by 25% for 1.5 seconds.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2acff3623098264fa5"
+  },
+  "name": "Halcyon Chargers",
+  "path": "@/images/items/halcyon-chargers.png",
+  "cost": 1400,
+  "firststat": "Max Health",
+  "firststatvalue": 150,
+  "secondstat": "Cooldown Reduction (%)",
+  "secondstatvalue": 10,
+  "thirdstat": "Max Energy",
+  "thirdstatvalue": 250,
+  "fourthstat": "Energy Recharge",
+  "fourthstatvalue": 3.5,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Active: Sprint for 3s (45s cooldown). Passive: +0.5 move speed (does not stack). +1 move speed when not in combat with heroes, monsters or turrets.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2acff3623098264fa6"
+  },
+  "name": "Journey Boots",
+  "path": "@/images/items/journey-boots.png",
+  "cost": 1500,
+  "firststat": "Max Health",
+  "firststatvalue": 150,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Active: Sprint for 2s (60s cooldown). Damaging heroes instantly sets the cooldown to 30s if it is above it. Passive: +0.5 move speed (does not stack). +1 move speed when not in combat with heroes, monsters or turrets.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2acff3623098264fa7"
+  },
+  "name": "Metal Jacket",
+  "path": "@/images/items/metal-jacket.png",
+  "cost": 2200,
+  "firststat": "Armor",
+  "firststatvalue": 95,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Reduces incoming damage from Basic Attacks by 15%.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2acff3623098264fa8"
+  },
+  "name": "Poisoned Shiv",
+  "path": "@/images/items/poisoned-shiv.png",
+  "cost": 2750,
+  "firststat": "Weapon Power",
+  "firststatvalue": 35,
+  "secondstat": "Attack Speed (%)",
+  "secondstatvalue": 35,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Every 2 basic attacks will apply a mortal wound for 2s. Restores 10 health whenever you kill a minion or monster (25 if using a melee default attack). Vampirism: +10% lifesteal (does not stack with other Vampirism)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2acff3623098264fa9"
+  },
+  "name": "Pulseweave",
+  "path": "@/images/items/pulseweave.png",
+  "cost": 2250,
+  "firststat": "Max Health",
+  "firststatvalue": 600,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Upon taking damage from an enemy hero, gain bonus movement speed for 3s then deal 50 (+25% of bonus health) damage and slow enemies by 5% (+0.02% of bonus health) for 2s. Also deals 25% of the burst damage per second to nearby enemies while available. (30s cooldown). +10% base movement speed. Regenerate 2.5% of your missing health per second whenever you are out of combat with enemy heroes for 5s.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2bcff3623098264faa"
+  },
+  "name": "Rooks Decree",
+  "path": "@/images/items/rooks-decree.png",
+  "cost": 2100,
+  "firststat": "Max Health",
+  "firststatvalue": 500,
+  "secondstat": "Armor",
+  "secondstatvalue": 30,
+  "thirdstat": "Shield",
+  "thirdstatvalue": 30,
+  "fourthstat": "Cooldown Reduction (%)",
+  "fourthstatvalue": 5,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: After using an ability, your next basic attack against an enemy hero applies a barrier (150 + 15% of bonus health) to all nearby allies for 2 seconds (10s cooldown).",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2bcff3623098264fab"
+  },
+  "name": "Serpent Mask",
+  "path": "@/images/items/serpent-mask.png",
+  "cost": 2800,
+  "firststat": "Weapon Power",
+  "firststatvalue": 70,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Your next 400-800 (level 1-12) points of weapon damage to enemy heroes has +25% lifesteal, recharges over 40 seconds. Restores 10 health whenever you kill a minion or monster (25 if using a melee default attack). Vampirism: +15% lifesteal (does not stack with other Vampirism)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2bcff3623098264fac"
+  },
+  "name": "Shatterglass",
+  "path": "@/images/items/shatterglass.png",
+  "cost": 3000,
+  "firststat": "Crystal Power",
+  "firststatvalue": 130,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2bcff3623098264fad"
+  },
+  "name": "Shiversteel",
+  "path": "@/images/items/shiversteel.png",
+  "cost": 2400,
+  "firststat": "Max Health",
+  "firststatvalue": 600,
+  "secondstat": "Attack Speed (%)",
+  "secondstatvalue": 20,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Basic attacks apply a 35/20% (Melee/Range) slow for 1s.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2bcff3623098264fae"
+  },
+  "name": "Slumbering Husk",
+  "path": "@/images/items/slumbering-husk.png",
+  "cost": 2300,
+  "firststat": "Armor",
+  "firststatvalue": 55,
+  "secondstat": "Shield",
+  "secondstatvalue": 55,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Taking 25% of your max health in damage over 1s fortifies your remaining health for 2s (30s cooldown).",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2bcff3623098264faf"
+  },
+  "name": "Sorrowblade",
+  "path": "@/images/items/sorrowblade.png",
+  "cost": 3100,
+  "firststat": "Weapon Power",
+  "firststatvalue": 120,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2ccff3623098264fb0"
+  },
+  "name": "Spellfire",
+  "path": "@/images/items/spellfire.png",
+  "cost": 3000,
+  "firststat": "Crystal Power",
+  "firststatvalue": 80,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Abilities dealing crystal damage to enemies (excluding lane minions) deal 7-40 (level 1-12) +55% of your crystal power as bonus crystal damage over 3s and apply Mortal Wounds for the duration.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2ccff3623098264fb1"
+  },
+  "name": "Spellsword",
+  "path": "@/images/items/spellsword.png",
+  "cost": 2800,
+  "firststat": "Weapon Power",
+  "firststatvalue": 85,
+  "secondstat": "Cooldown Reduction (%)",
+  "secondstatvalue": 35,
+  "thirdstat": "Energy Recharge",
+  "thirdstatvalue": 2,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Every basic attack grants you 4 energy (12 on heroes).",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2ccff3623098264fb2"
+  },
+  "name": "Stormcrown",
+  "path": "@/images/items/stormcrown.png",
+  "cost": 2400,
+  "firststat": "Max Health",
+  "firststatvalue": 300,
+  "secondstat": "Energy Recharge",
+  "secondstatvalue": 2,
+  "thirdstat": "Cooldown Reduction (%)",
+  "thirdstatvalue": 20,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Stormguard: Your next basic attack will deal 500-750 bonus true damage (6s cooldown). 25% effectiveness against non-jungle monsters. (Does not stack with other Stormguard)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2ccff3623098264fb3"
+  },
+  "name": "Superscout 2000",
+  "path": "@/images/items/superscout-2000.png",
+  "cost": 2000,
+  "firststat": "Max Health",
+  "firststatvalue": 450,
+  "secondstat": "Cooldown Reduction (%)",
+  "secondstatvalue": 20,
+  "thirdstat": "Energy Recharge",
+  "thirdstatvalue": 4.5,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Active: Reveal an area for 5s. Can see over walls, into brush, and stealthed units. Scout Traps within this area are permanently revealed. Passive: You can hold 3 additional Scout Cam(s) and obtain charges 60s faster per Scout Cam. Scout Cams last 60s longer and take 3 extra hit(s) to kill.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2ccff3623098264fb4"
+  },
+  "name": "Teleport Boots",
+  "path": "@/images/items/teleport-boots.png",
+  "cost": 1600,
+  "firststat": "Max Health",
+  "firststatvalue": 150,
+  "secondstat": "Armor",
+  "secondstatvalue": 15,
+  "thirdstat": "Shield",
+  "thirdstatvalue": 15,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Active: After channeling for 2.5s, teleport to allied structure, minion or Scout Cam. Grant 600 barrier to the target while channeling. Gain a burst of move speed upon arrival (180s cooldown). Passive: +0.5 move speed (does not stack).  +1 move speed when not in combat with heroes, monsters or turrets.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2ccff3623098264fb5"
+  },
+  "name": "Tension Bow",
+  "path": "@/images/items/tension-bow.png",
+  "cost": 2900,
+  "firststat": "Weapon Power",
+  "firststatvalue": 40,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Every 6s, your next basic attack will deal 100 (+100% of bonus weapon power) bonus damage. Armorbreaker: +30% armor pierce (does not stack with other Armorbreakers)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2dcff3623098264fb6"
+  },
+  "name": "Tornado Trigger",
+  "path": "@/images/items/tornado-trigger.png",
+  "cost": 2800,
+  "firststat": "Attack Speed (%)",
+  "firststatvalue": 40,
+  "secondstat": "Critical Chance (%)",
+  "secondstatvalue": 35,
+  "thirdstat": "Critical Damage (%)",
+  "thirdstatvalue": 5,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Passive: Basic attacking grants you +10% bonus base movement speed for 1.2s.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2dcff3623098264fb7"
+  },
+  "name": "Tyrants Monocle",
+  "path": "@/images/items/tyrants-monocle.png",
+  "cost": 2900,
+  "firststat": "Weapon Power",
+  "firststatvalue": 50,
+  "secondstat": "Critical Chance (%)",
+  "secondstatvalue": 35,
+  "thirdstat": "Critical Damage (%)",
+  "thirdstatvalue": 15,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6067ab2dcff3623098264fb8"
+  },
+  "name": "War Treads",
+  "path": "@/images/items/war-treads.png",
+  "cost": 1800,
+  "firststat": "Max Health",
+  "firststatvalue": 400,
+  "secondstat": "",
+  "secondstatvalue": null,
+  "thirdstat": "",
+  "thirdstatvalue": null,
+  "fourthstat": "",
+  "fourthstatvalue": null,
+  "fifthstat": "",
+  "fifthstatvalue": null,
+  "desc": "Active: Grant a sprint to all nearby teammates for 2s (60s cooldown). Passive: +0.7 move speed. (Does not stack with other boots.) +1 move speed when not in combat with heroes, monsters or turrets.",
+  "__v": 0
+}]
