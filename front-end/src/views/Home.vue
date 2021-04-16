@@ -183,9 +183,11 @@
           </span>
           </div>
           </div>
-          <div class="functions">
+          <div v-if="user != null">
+          <div class="functions" v-if="build.user == user._id" >
             <a href="#" @click="setupEdit(build)"><router-link to="/edit"> edit </router-link></a>
             <a href="#" @click="deleteBuild(build)"> delete </a>
+          </div>
           </div>
         </div>
       </div>
@@ -201,6 +203,7 @@ export default {
       builds: [],
       heroes: [],
       items: [],
+      user: '',
     }
   },
   created() {
@@ -208,6 +211,7 @@ export default {
     this.getBuilds();
     this.getHeroes();
     this.getItems();
+    this.user = this.$root.$data.user;
   },
   updated() {
     this.getBuilds();

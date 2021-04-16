@@ -4,6 +4,7 @@
       <div id="links">
         <router-link to="/">Home</router-link>
         <router-link to="/create">Create</router-link>
+        <a v-if="this.$root.$data.user != null" href="#" @click="logout()">Logout</a>
       </div>
     </div>
     <router-view />
@@ -19,12 +20,26 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   watch: {
     '$route' (to) {
       document.title = to.meta.title || "Vainglory Builds";
     }
   },
+  methods: {
+    async logout() {
+      try {
+        console.log("here");
+        await axios.delete("/api/users");
+        console.log("there");
+        this.$root.$data.user = null;
+        location.reload();
+      } catch (error) {
+        this.$root.$data.user = null;
+      }
+    },
+  }
 }
 </script>
 
@@ -40,9 +55,9 @@ export default {
 #nav {
   padding: 30px;
   display: grid;
-  grid-template-columns: 1fr 3fr 3fr;
+  grid-template-columns: 3fr 3fr 1fr;
   grid-column-gap: 5px;
-  grid-template-areas: "side none none";
+  grid-template-areas: "none none side";
   margin-bottom: 50px;
 }
 

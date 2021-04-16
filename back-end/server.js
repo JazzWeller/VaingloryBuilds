@@ -4,6 +4,12 @@ const mongoose = require('mongoose');
 
 const app = express();
 
+// setup body parser middleware to conver to JSON and handle URL encoded forms
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+  extended: false
+}));
+
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({
   extended: false
@@ -17,6 +23,24 @@ mongoose.connect('mongodb://localhost:27017/vainglory', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
+
+const cookieParser = require("cookie-parser");
+app.use(cookieParser());
+
+const cookieSession = require('cookie-session');
+app.use(cookieSession({
+  name: 'session',
+  keys: [
+    'secretValue'
+  ],
+  cookie: {
+    maxAge: 24 * 60 * 60 * 1000 // 24 hours
+  }
+}));
+
+// import the users module and setup its API path
+const users = require("./users.js");
+app.use("/api/users", users.routes);
 
 // Create a scheme for projects
 const heroeSchema = new mongoose.Schema({
@@ -48,6 +72,7 @@ const buildSchema = new mongoose.Schema({
 	type: mongoose.Schema.Types.ObjectId,
         ref: 'Heroe'
     },
+    user: String, //Have it be an ID
     items: [{
 	type: mongoose.Schema.Types.ObjectId,
 	ref: 'Item'
@@ -133,6 +158,7 @@ app.post('/api/builds', async (req, res) => {
 
         let build = new Build({
             name: req.body.name,
+            user: req.body.userId,
             heroe: hero,
             items: [
             	itemOne,

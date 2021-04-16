@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <div v-if="this.user != ''">
     <div id="loadImages" v-if="false">
       <img src='@/images/adagio.png' />
       <img src='@/images/alpha.png' />
@@ -72,21 +73,37 @@
       </div>
     </div>
     </div>
+    </div>
+    <Login v-else />
   </div>
 </template>
 
 <script>
 import axios from 'axios';
+import Login from '@/components/Login.vue';
 export default {
   data() {
     return {
       heroes: [],
+      user: '',
       selectedHeroId: "",
     }
+  },
+  components: {
+    Login,
   },
   created() {
     document.title = "Select Hero";
     this.getHeroes();
+  },
+  async mounted() {
+    try {
+      let response = await axios.get('/api/users');
+      this.$root.$data.user = response.data.user;
+      this.user = this.$root.$data.user;
+    } catch (error) {
+      this.$root.$data.user = null;
+    }
   },
   methods: {
     async getHeroes() {
