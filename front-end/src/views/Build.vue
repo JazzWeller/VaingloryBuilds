@@ -292,6 +292,7 @@ export default {
       try {
         await axios.post('/api/builds', {
           name: this.name,
+          user: this.$root.$data.user._id,
           heroID: this.$root.$data.selectedHeroId,
           itemOneID: this.selectedItemIdOne,
           itemTwoID: this.selectedItemIdTwo,

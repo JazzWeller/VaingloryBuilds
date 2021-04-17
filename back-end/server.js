@@ -170,6 +170,7 @@ app.post('/api/builds', async (req, res) => {
             ]
         });
         console.log(build);
+        console.log(req);
         await build.save();
         res.send(build);
     } catch (error) {
