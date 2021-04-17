@@ -4,7 +4,7 @@
       <div id="links">
         <router-link to="/">Home</router-link>
         <router-link to="/create">Create</router-link>
-        <a v-if="this.$root.$data.user != null" href="#" @click="logout()">Logout</a>
+        <a id="logout" href="#" v-if="this.$root.$data.user != null" @click="logout()">Logout</a>
       </div>
     </div>
     <router-view />
@@ -21,10 +21,21 @@
 
 <script>
 import axios from 'axios';
+import Vue from 'vue'
 export default {
   watch: {
     '$route' (to) {
       document.title = to.meta.title || "Vainglory Builds";
+    },
+    user(newValue) {
+      this.$root.$data.user = newValue; // idk if this is necessary
+      console.log("in app.vue watch");
+      Vue.forceUpdate()
+    }
+  },
+  computed: {
+    user() {
+      return this.$root.$data.user;
     }
   },
   methods: {

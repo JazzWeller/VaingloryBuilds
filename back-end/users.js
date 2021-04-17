@@ -195,7 +195,6 @@ router.get('/', validUser, async (req, res) => {
 // logout
 router.delete("/", validUser, async (req, res) => {
   try {
-    console.log("here");
     req.session = null;
     res.sendStatus(200);
   } catch (error) {
